@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em HTML</title>
+    <style>
+        body {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-align: justify;  
+            /*
+            Medidas Absolutas
+            px, cm, mm, in, pt, pc
+
+            16 pixels(tamanho padrão do navegador) geralmente é = 1em
+            
+            Medidas Relativas
+
+            em, ex, rem, vw, vh, %
+
+            Medidas de fonte:
+            weight = peso
+            width = largura
+            height = altura
+
+            */
+
+            font-size: 1em;
+            font-weight: bolder;         
+            /* tipos de font-weight: 
+            lighter normal bold bolder */
+            font-style: italic;
+            text-decoration: underline;
+
+
+
+          
+
+        }
+        
+        h1 {
+
+         /* Propriedade shorthand dizer varias coisas numa mesma linha (simplificando as linhas acima)*/
+         
+         /* na seguinte ordem:
+         
+         font-style -> font-wight -> font-size -> font-family */
+
+            font: italic bolder 2em 'Work Sans', sans-serif;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes no html</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem accusantium quos distinctio nihil tempore fugit neque qui cumque iure dignissimos vel nostrum rerum sint iusto natus, quisquam optio! Asperiores, delectus!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum ab tenetur quidem voluptate id. Fugiat iste facilis, odio consequatur a deleniti, qui pariatur cumque at error harum, expedita nesciunt fugit.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam porro architecto odio in veritatis hic quod doloremque aliquam, aut ratione accusantium. Ipsam, corporis consectetur deleniti sapiente officiis nisi neque unde.</p>
+</body>
+</html>
